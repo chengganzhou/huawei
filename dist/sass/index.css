@@ -1,0 +1,172 @@
+@charset "UTF-8";
+body, html {
+  width: 100%; }
+
+.nav-wrap {
+  width: 100%;
+  height: 36px;
+  background: #2e2828; }
+  .nav-wrap .nav {
+    width: 1208px;
+    height: 36px;
+    margin: 0 auto;
+    background: #2e2828;
+    overflow: hidden; }
+    .nav-wrap .nav .nav-l {
+      float: left;
+      line-height: 36px;
+      color: #afafaf; }
+      .nav-wrap .nav .nav-l li {
+        padding-right: 16px;
+        float: left;
+        position: relative; }
+        .nav-wrap .nav .nav-l li span {
+          margin-left: 6px;
+          font-size: 14px;
+          font-family: "宋体";
+          font-weight: "bold";
+          transform: rotate(90deg);
+          float: right; }
+        .nav-wrap .nav .nav-l li:after {
+          content: '';
+          width: 1px;
+          height: 10px;
+          background: #414141;
+          position: absolute;
+          right: 7px;
+          top: 12px; }
+        .nav-wrap .nav .nav-l li:hover {
+          color: #fffff2; }
+      .nav-wrap .nav .nav-l .noline:after {
+        content: '';
+        width: 0px;
+        height: 0px;
+        background: transparent; }
+  .nav-wrap .nav-r {
+    overflow: hidden;
+    color: #afafaf; }
+    .nav-wrap .nav-r li {
+      padding-right: 16px;
+      float: left;
+      position: relative;
+      line-height: 36px; }
+      .nav-wrap .nav-r li span {
+        margin-left: 8px;
+        font-size: 14px;
+        font-family: "宋体";
+        font-weight: "bolder";
+        transform: rotate(90deg);
+        float: right; }
+      .nav-wrap .nav-r li:after {
+        content: '';
+        width: 1px;
+        height: 10px;
+        background: #414141;
+        position: absolute;
+        right: 7px;
+        top: 12px;
+        line-height: 12px; }
+      .nav-wrap .nav-r li:hover {
+        color: #fffff2; }
+    .nav-wrap .nav-r .nolineto:after {
+      content: '';
+      width: 0px;
+      height: 0px;
+      background: transparent; }
+    .nav-wrap .nav-r .noline {
+      text-indent: 24px;
+      background: #424242; }
+      .nav-wrap .nav-r .noline:after {
+        content: '';
+        width: 0px;
+        height: 0px;
+        background: transparent; }
+      .nav-wrap .nav-r .noline::before {
+        content: "";
+        background: url(https://res8.vmallres.com/20200731/css/../images/echannel/icon/icon-common.svg) no-repeat;
+        background-position: -99px -4px;
+        position: absolute;
+        display: block;
+        top: 10px;
+        left: 0px;
+        width: 20px;
+        height: 12px; }
+      .nav-wrap .nav-r .noline:hover:before {
+        background-position: -119px -4px; }
+
+.title-wrap {
+  width: 100%;
+  height: 72px; }
+  .title-wrap .title {
+    width: 1208px;
+    height: 72px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .title-wrap .title .logo {
+      float: left;
+      width: 200px;
+      height: 36px;
+      display: block; }
+      .title-wrap .title .logo img {
+        width: 200px;
+        height: 36px;
+        margin-top: 18px; }
+  .title-wrap img {
+    line-height: 72px;
+    height: 24px;
+    width: 74px;
+    border-radius: 12px;
+    float: left; }
+  .title-wrap .red {
+    margin-left: 44px;
+    margin-top: 28px; }
+  .title-wrap .blue {
+    margin-left: 24px;
+    margin-top: 28px; }
+  .title-wrap span {
+    font-size: 16px;
+    color: #333333;
+    padding-top: 28px;
+    float: left;
+    margin-left: 25px; }
+  .title-wrap .search {
+    overflow: hidden; }
+    .title-wrap .search input {
+      width: 200px;
+      height: 28px;
+      background: #f0f0f0;
+      border: 1px solid transparent;
+      margin-top: 22px;
+      border-top-left-radius: 16px;
+      border-bottom-left-radius: 16px;
+      float: left;
+      text-indent: 30px;
+      color: #a499a4; }
+    .title-wrap .search .btn {
+      width: 38px;
+      height: 32px;
+      margin-top: 22px;
+      border: 1px solid transparent;
+      background: #f0f0f0;
+      float: left;
+      border-top-right-radius: 16px;
+      border-bottom-right-radius: 16px;
+      position: relative; }
+      .title-wrap .search .btn::before {
+        content: "";
+        background: url(https://res8.vmallres.com/20200731/css/../images/echannel/icon/icon-common.svg) no-repeat;
+        background-position: -156px -3px;
+        position: absolute;
+        display: block;
+        top: 8px;
+        left: 0px;
+        width: 26px;
+        height: 16px; }
+
+.banana-wrap {
+  width: 100%;
+  height: 550px; }
+  .banana-wrap .banana {
+    height: 550px;
+    width: 1920px;
+    margin: 0 auto; }
