@@ -1,45 +1,88 @@
 [
     {
         "type1":["../image/miyuhong1.png","../image/miyuhong2.png","../image/miyuhong3.png","../image/miyuhong5.png"],
-        "other":{"type2":["../image/wuxiantaocibai1.png","../image/wuxiantaocibai2.png","../image/wuxiantaocibai3.png","../image/wuxiantaocibai4.png","../image/wuxiantaocibai5.png","../image/wuxiantaocibai6.png","../image/wuxiantaocibai7.png"]},
-        "id":"1","key":"taocibai","scr":"../image/miyuhong1.png","name":"华为（HUAWEI）移动路由5G CPE Pro","price":"¥2199",
+        "style1":{"key":"miyuhong","type2":["../image/miyuhong1.png","../image/miyuhong2.png","../image/miyuhong3.png","../image/miyuhong5.png"],
+        "code2":"3102050009703","price2":"¥ 649.00","displayPrice2":"￥999.00","name2":"荣耀FlyPods青春版 真无线耳机（铃兰白）"},
+        "style2":{"key":"youxiantaocibai","type2":["../image/youxiantaocibai1.png","../image/youxiantaocibai2.png","../image/youxiantaocibai3.png","../image/youxiantaocibai4.png","../image/youxiantaocibai5.png"],
+        "code2":"3102050008653","price2":"¥ 639.00","displayPrice2":"￥699.00","name2":"荣耀FlyPods青春版 真无线耳机（有线）"},  
+        "style3":{"key":"huangyehei","type2":["../image/huangyehei1.png","../image/huangyehei2.png","../image/huangyehei3.png","../image/huangyehei4.png"],
+        "code2":"31020500086635","price2":"¥ 769.00","displayPrice2":"￥899.00","name2":"荣耀FlyPods青春版 真有线耳机（铃兰白）"},   
+        "id":"1","key":"miyuhong","scr":"../image/miyuhong1.png","name":"HUAWEI FreeBuds 3 无线耳机（陶瓷白）","price":"¥ 949.00","displayPrice":"￥999.00",
         "display":["限时特价","分期免息","赠送积分"],"comment":"692评价","goodCommont":"97%好评","new":"0",
-        "goods":"0","more":"1"
+        "activity":"【优惠购】① 限时优惠50元  ② 享6期免息  ③ 登录安卓APP 免费镌刻：选择【增值】个性化镌刻服务","descript":"半开放式主动降噪，麒麟A1芯片，抗干扰，低时延，无线快充，佩戴稳固舒适，震撼低音，搭配P40系列、Mate30系列，荣耀系列，苹果系列等手机体验更佳",
+        "goods":"0","more":"1","sale":[{"key":"限时特价","value":"限时直降50元 "},{"key":"一站式换新","value":"APP专享，最高补贴550元"},{"key":"购机赠券","value":"支付后赠送加油宝30元话费优惠券，斑马AI课49元英语礼包，Keep 会员季卡5折券"},{"key":"限时特价","value":"限时直降50元 "}],
+        "editor":["无线充版","有线充版","大号充电"],"color":["../image/miyuhong1.png","陶瓷白"],"code":"3102050009732","recommond":["荣耀智能体脂秤2","荣耀手表2 Magicwatch2"]
+        
     },
     {
         "type1":["../image/tangjinghei1.png","../image/tangjinghei2.png","../image/tangjinghei3.png","../image/tangjinghei4.png","../image/tangjinghei5.png","../image/tangjinghei6.png","../image/tangjinghei7.png"],
-        "other":{"type2":["../image/youxiantaocibai1.png","../image/youxiantaocibai2.png","../image/youxiantaocibai3.png","../image/youxiantaocibai4.png","../image/youxiantaocibai5.png"]},
-        "name":"华为5G随行WiFi","price":"¥1599起","id":"2","scr":"../image/tangjinghei1.png",
-        "display":["限时特价","赠送积分"],"comment":"520评价","goodCommont":"98%好评","new":"1",
-        "goods":"1","more":"1"
-
+        "style1":{"key":"tangjinghei","type2":["../image/tangjinghei1.png","../image/tangjinghei2.png","../image/tangjinghei3.png","../image/tangjinghei4.png","../image/tangjinghei5.png","../image/tangjinghei6.png","../image/tangjinghei7.png"],
+        "code2":"3102050009703","price2":"¥ 649.00","displayPrice2":"￥999.00","name2":"荣耀FlyPods青春版 真无线耳机（铃兰白）"},
+        "style2":{"key":"youxiantaocibai","type2":["../image/youxiantaocibai1.png","../image/youxiantaocibai2.png","../image/youxiantaocibai3.png","../image/youxiantaocibai4.png","../image/youxiantaocibai5.png"],
+        "code2":"3102050008653","price2":"¥ 639.00","displayPrice2":"￥699.00","name2":"荣耀FlyPods青春版 真无线耳机（有线）"},  
+        "style3":{"key":"huangyehei","type2":["../image/huangyehei1.png","../image/huangyehei2.png","../image/huangyehei3.png","../image/huangyehei4.png"],
+        "code2":"31020500086635","price2":"¥ 769.00","displayPrice2":"￥899.00","name2":"荣耀FlyPods青春版 真有线耳机（铃兰白）"},   
+        "name":"华为5G随行WiFi","price":"¥1599起","displayPrice":"$1900","id":"2","scr":"../image/tangjinghei1.png",
+        "display":["限时特价","赠送积分"],"comment":"520评价","goodCommont":"98%好评","new":"1","goods":"1","more":"1",
+            "activity":"【优惠购】① 限时优惠40元 ② 享3期免息","descript":"&nbsp;",
+            "sale":[{"key":"限时特价","value":"限时直降40元 "},{"key":"购机赠券","value":"支付后赠送加油宝30元话费优惠券，斑马AI课49元英语礼包，Keep 会员季卡5折券"},{"key":"购机赠券","value":"支付后赠送加油宝50元话费优惠券，斑马AI课49元英语礼包，Keep 会员季卡5折券"},{"key":"限时特价","value":"限时直降30元 "}],
+            "key":"tangjinghei",  "editor":["无线充电","有线充电","大号版本"],"color":["../image/tangjinghei1.png","炭黑"],"code":"3102050009361","recommond":["华为超级快充无线充","FreeLace 耳机"]
     },
     {
         "type1":["../image/linglanbai1.png","../image/linglanbai2.png","../image/linglanbai3.png","../image/linglanbai4.png"],
-        "other":{"type2":["../image/huangyehei1.png","../image/huangyehei2.png","../image/huangyehei3.png","../image/huangyehei4.png"]},
-        "id":"3","scr":"../image/linglanbai1.png","name":"华为（HUAWEI）移动路由4G路由2 Pro","price":"¥449",
+        "style1":{"key":"wuxiantaocibai","type2":["../image/linglanbai1.png","../image/linglanbai2.png","../image/linglanbai3.png","../image/linglanbai4.png"],
+        "code2":"3102050009703","price2":"¥ 649.00","displayPrice2":"￥999.00","name2":"荣耀FlyPods青春版 真无线耳机（铃兰白）"},
+        "style2":{"key":"youxiantaocibai","type2":["../image/youxiantaocibai1.png","../image/youxiantaocibai2.png","../image/youxiantaocibai3.png","../image/youxiantaocibai4.png","../image/youxiantaocibai5.png"],
+        "code2":"3102050008653","price2":"¥ 639.00","displayPrice2":"￥699.00","name2":"荣耀FlyPods青春版 真无线耳机（有线）"},  
+        "style3":{"key":"huangyehei","type2":["../image/huangyehei1.png","../image/huangyehei2.png","../image/huangyehei3.png","../image/huangyehei4.png"],
+        "code2":"31020500086635","price2":"¥ 769.00","displayPrice2":"￥899.00","name2":"荣耀FlyPods青春版 真有线耳机（铃兰白）"},   
+        "id":"3","scr":"../image/linglanbai1.png","name":"华为（HUAWEI）移动路由4G路由2 Pro","price":"¥449","displayPrice":"￥600",
         "display":["限时特价","赠送积分"],"comment":"1058评价","goodCommont":"99%好评","new":"0",
-        "goods":"1","more":"0"
+        "goods":"1","more":"0",  "activity":"【狂暑季，现货速发】:①先登录“会员频道”兑换优惠券后再购买更优惠②享6期免息③下单使用500以内积分可双倍抵现","descript":"双击触控，降噪通话，12小时聆听；入耳式真无线，开盒自动配对；双击触控音乐和来电；IP54级防尘防水溅。",
+        "sale":[{"key":"积分双倍抵现","value":"下单使用500以内积分可双倍抵现  "},{"key":"购机赠券","value":"银联、掌上生活、花呗、工行分期支付可享免息（免息活动适用于单款免息商品订单，含多款商品订单仅在免息活动一致时可享用） 会员季卡5折券"},{"key":"购机赠券","value":"支付后赠送加油宝50元话费优惠券，斑马AI课49元英语礼包，Keep 会员季卡5折券"},{"key":"限时特价","value":"限时直降30元 "}],
+        "key":"linglanbai", "editor":["单品","有套餐充电","儿童套餐"],"color":["../image/linglanbai1.png","铃兰"],"code":"3102050009368","recommond":["荣耀手表2 Magicwatch2","荣耀智能体脂秤2 耳机"]
     },
     {
         "type1":["../image/miyuhong1.png","../image/miyuhong2.png","../image/miyuhong3.png","../image/miyuhong5.png"],
-        "other":{"type2":["../image/wuxiantaocibai1.png","../image/wuxiantaocibai2.png","../image/wuxiantaocibai3.png","../image/wuxiantaocibai4.png","../image/wuxiantaocibai5.png","../image/wuxiantaocibai6.png","../image/wuxiantaocibai7.png"]},
-        "id":"4","scr":"../image/listpic4.png","name":"华为（HUAWEI）移动路由4G路由2","price":"￥269",
-        "display":["限时特价","赠送积分"],"comment":"5448评价","goodCommont":"98%好评","new":"1",
-        "goods":"1","more":"0"
+        "style1":{"key":"miyuhong","type2":["../image/miyuhong1.png","../image/miyuhong2.png","../image/miyuhong3.png","../image/miyuhong5.png"],
+        "code2":"3102050009703","price2":"¥ 649.00","displayPrice2":"￥999.00","name2":"荣耀FlyPods青春版 真无线耳机（铃兰白）"},
+        "style2":{"key":"youxiantaocibai","type2":["../image/youxiantaocibai1.png","../image/youxiantaocibai2.png","../image/youxiantaocibai3.png","../image/youxiantaocibai4.png","../image/youxiantaocibai5.png"],
+        "code2":"3102050008653","price2":"¥ 639.00","displayPrice2":"￥699.00","name2":"荣耀FlyPods青春版 真无线耳机（有线）"},  
+        "style3":{"key":"huangyehei","type2":["../image/huangyehei1.png","../image/huangyehei2.png","../image/huangyehei3.png","../image/huangyehei4.png"],
+        "code2":"31020500086635","price2":"¥ 769.00","displayPrice2":"￥899.00","name2":"荣耀FlyPods青春版 真有线耳机（铃兰白）"},   
+        "id":"4","scr":"../image/listpic4.png","name":"华为（HUAWEI）移动路由4G路由2","price":"￥269","displayPrice":"￥300",
+        "display":["限时特价","赠送积分"],"comment":"5448评价","goodCommont":"98%好评","new":"1","goods":"1","more":"0",
+            "key":"miyuhong",   "activity":"【优惠购】① 限时优惠50元  ② 享6期免息  ③ 登录安卓APP 免费镌刻：选择【增值】个性化镌刻服务","descript":"半开放式主动降噪，麒麟A1芯片，抗干扰，低时延，无线快充，佩戴稳固舒适，震撼低音，搭配P40系列、Mate30系列，荣耀系列，苹果系列等手机体验更佳",
+            "sale":[{"key":"限时特价","value":"限时直降50元 "},{"key":"一站式换新","value":"APP专享，最高补贴550元"},{"key":"购机赠券","value":"支付后赠送加油宝30元话费优惠券，斑马AI课49元英语礼包，Keep 会员季卡5折券"},{"key":"限时特价","value":"限时直降50元 "}],
+            "editor":["无线充版","有线充版","儿童套餐"],"color":["../image/miyuhong1.png","陶瓷白"],"code":"3102050009702","recommond":["荣耀智能体脂秤2","荣耀手表2 Magicwatch2"]
+            
     },
     {
         "type1":["../image/tangjinghei1.png","../image/tangjinghei2.png","../image/tangjinghei3.png","../image/tangjinghei4.png","../image/tangjinghei5.png","../image/tangjinghei6.png","../image/tangjinghei7.png"],
-        "other":{"type2":["../image/youxiantaocibai1.png","../image/youxiantaocibai2.png","../image/youxiantaocibai3.png","../image/youxiantaocibai4.png","../image/youxiantaocibai5.png"]},
-        "id":"5","scr":"../image/listpic5.png","name":"华为随行WiFi 2 mini","price":"¥2199",
+        "style1":{"key":"tangjinghei","type2":["../image/tangjinghei1.png","../image/tangjinghei2.png","../image/tangjinghei3.png","../image/tangjinghei4.png","../image/tangjinghei5.png","../image/tangjinghei6.png","../image/tangjinghei7.png"],
+        "code2":"3102050009703","price2":"¥ 649.00","displayPrice2":"￥999.00","name2":"荣耀FlyPods青春版 真无线耳机（铃兰白）"},
+        "style2":{"key":"youxiantaocibai","type2":["../image/youxiantaocibai1.png","../image/youxiantaocibai2.png","../image/youxiantaocibai3.png","../image/youxiantaocibai4.png","../image/youxiantaocibai5.png"],
+        "code2":"3102050008653","price2":"¥ 639.00","displayPrice2":"￥699.00","name2":"荣耀FlyPods青春版 真无线耳机（有线）"},  
+        "style3":{"key":"huangyehei","type2":["../image/huangyehei1.png","../image/huangyehei2.png","../image/huangyehei3.png","../image/huangyehei4.png"],
+        "code2":"31020500086635","price2":"¥ 769.00","displayPrice2":"￥899.00","name2":"荣耀FlyPods青春版 真有线耳机（铃兰白）"},   
+        "id":"5","scr":"../image/listpic5.png","name":"华为随行WiFi 2 mini","price":"¥2199","displayPrice":"￥2500",
         "display":["限时特价","赠送积分"],"comment":"520评价","goodCommont":"98%好评","new":"1",
-        "goods":"0","more":"1"
+        "goods":"0","more":"1", "activity":"【狂暑季，现货速发】:①先登录“会员频道”兑换优惠券后再购买更优惠②享6期免息③下单使用500以内积分可双倍抵现","descript":"双击触控，降噪通话，12小时聆听；入耳式真无线，开盒自动配对；双击触控音乐和来电；IP54级防尘防水溅。",
+        "sale":[{"key":"限时特价","value":"限时直降40元 "},{"key":"购机赠券","value":"支付后赠送加油宝30元话费优惠券，斑马AI课49元英语礼包，Keep 会员季卡5折券"},{"key":"购机赠券","value":"支付后赠送加油宝50元话费优惠券，斑马AI课49元英语礼包，Keep 会员季卡5折券"},{"key":"限时特价","value":"限时直降30元 "}],
+        "key":"tangjinghei","editor":["单品","有套餐充电","儿童套餐"],"color":["../image/linglanbai5.png","铃兰"],"code":"3102050036369","recommond":["荣耀手表2 Magicwatch2","荣耀智能体脂秤2 耳机"]
     },
     {
         "type1":["../image/tangjinghei1.png","../image/tangjinghei2.png","../image/tangjinghei3.png","../image/tangjinghei4.png","../image/tangjinghei5.png","../image/tangjinghei6.png","../image/tangjinghei7.png"],
-        "other":{"type2":["../image/youxiantaocibai1.png","../image/youxiantaocibai2.png","../image/youxiantaocibai3.png","../image/youxiantaocibai4.png","../image/youxiantaocibai5.png"]},
-        "id":"6","scr":"../image/listpic6.png","name":"华为4G路由外置天线","price":"¥39",
+        "style1":{"key":"tangjinghei","type2":["../image/tangjinghei1.png","../image/tangjinghei2.png","../image/tangjinghei3.png","../image/tangjinghei4.png","../image/tangjinghei5.png","../image/tangjinghei6.png","../image/tangjinghei7.png"],
+        "code2":"3102050009703","price2":"¥ 649.00","displayPrice2":"￥999.00","name2":"荣耀FlyPods青春版 真无线耳机（铃兰白）"},
+        "style2":{"key":"youxiantaocibai","type2":["../image/youxiantaocibai1.png","../image/youxiantaocibai2.png","../image/youxiantaocibai3.png","../image/youxiantaocibai4.png","../image/youxiantaocibai5.png"],
+        "code2":"3102050008653","price2":"¥ 639.00","displayPrice2":"￥699.00","name2":"荣耀FlyPods青春版 真无线耳机（有线）"},  
+        "style3":{"key":"huangyehei","type2":["../image/huangyehei1.png","../image/huangyehei2.png","../image/huangyehei3.png","../image/huangyehei4.png"],
+        "code2":"31020500086635","price2":"¥ 769.00","displayPrice2":"￥899.00","name2":"荣耀FlyPods青春版 真有线耳机（铃兰白）"},   
+        "id":"6","scr":"../image/listpic6.png","name":"华为4G路由外置天线","price":"¥39","displayPrice":"￥50",
         "display":["赠送积分"],"comment":"187评价","goodCommont":"95%好评","new":"0",
-        "goods":"1","more":"1"
+        "goods":"1","more":"1","activity":"【狂暑季，现货速发】:①先登录“会员频道”兑换优惠券后再购买更优惠②享6期免息③下单使用500以内积分可双倍抵现","descript":"双击触控，降噪通话，12小时聆听；入耳式真无线，开盒自动配对；双击触控音乐和来电；IP54级防尘防水溅。",
+        "sale":[{"key":"积分双倍抵现","value":"下单使用500以内积分可双倍抵现  "},{"key":"购机赠券","value":"支付后赠送加油宝50元话费优惠券，斑马AI课49元英语礼包，Keep 会员季卡5折券"},{"key":"限时特价","value":"限时直降30元 "}],
+        "key":"tangjinghei","editor":["单品","有套餐充电","儿童套餐"],"color":["../image/listpic6.png","铃兰"],"code":"3102050009332","recommond":["荣耀手表2 Magicwatch2","荣耀智能体脂秤2 耳机"]
     }
 ]
