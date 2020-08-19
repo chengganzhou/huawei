@@ -1,0 +1,96 @@
+[  {"id":"phone",
+    "look":"../image/look.png","main":[ 
+    {"title":"../image/phone1.png","value":"HUAWEI P系列"},
+    {"title":"../image/phone2.png","value":"荣耀 V系列"},
+    {"title":"../image/phone3.png","value":"HUAWEI Mate系列"},
+    {"title":"../image/phone1.png","value":"HUAWEI nova系列"},
+    {"title":"../image/phone2.png","value":"华为畅享系列"},
+    {"title":"../image/phone3.png","value":"HUAWEI 麦芒系列"},
+    {"title":"../image/phone1.png","value":"HUAWEI P系列"}]
+},
+{"id":"computer",
+    "look":"../image/look.png","main":[ 
+    {"title":"../image/computer1.png","value":"华为MateBook X系列"},
+    {"title":"../image/computer2.png","value":"华为MateBook系列"},
+    {"title":"../image/computer3.png","value":"华为MateBook D系列"},
+    {"title":"../image/computer1.png","value":"华为MateBook B系列"},
+    {"title":"../image/computer2.png","value":"荣耀MagicBook系列"},
+    {"title":"../image/computer3.png","value":"HUAWEI 麦芒系列"}]
+},
+{"id":"ipad",
+    "look":"../image/look.png","main":[ 
+    {"title":"../image/ipad1.png","value":"华为MatePad 系列"},
+    {"title":"../image/ipad2.png","value":"荣耀 V系列"},
+    {"title":"../image/ipad1.png","value":"华为畅享 系列"},
+    {"title":"../image/ipad2.png","value":"荣耀数字系列"},
+    {"title":"../image/ipad1.png","value":"荣耀畅玩系列"}]
+},
+{"id":"watch",
+    "look":"../image/look.png","main":[ 
+    {"title":"../image/watch1.png","value":"智能手表"},
+    {"title":"../image/watch2.png","value":"儿童手表"},
+    {"title":"../image/watch1.png","value":"智能手环"},
+    {"title":"../image/watch2.png","value":"VR"},
+    {"title":"../image/watch1.png","value":"智能健康配件"}
+]},
+{"id":"route",
+    "look":"../image/look.png","main":[ 
+    {"title":"../image/route1.png","value":"智能路由"},
+    {"title":"../image/route2.png","value":"移动路由"},
+    {"title":"../image/route1.png","value":"智能音箱"},
+    {"title":"../image/route2.png","value":"智能存储"},
+    {"title":"../image/route1.png","value":"HiLink生态"}
+]},
+{"id":"moniter",
+    "look":"../image/look.png","main":[ 
+    {"title":"../image/moniter1.png","value":"华为智慧屏"},
+    {"title":"../image/moniter2.png","value":"荣耀智慧屏"}
+]},
+{"id":"earphone",
+    "look":"../image/look.png","main":[ 
+    {"title":"../image/earphone1.png","value":"真无线耳机"},
+    {"title":"../image/earphone2.png","value":"有线耳机"},
+    {"title":"../image/earphone3.png","value":"蓝牙耳机"},
+    {"title":"../image/earphone1.png","value":"蓝牙音箱"},
+    {"title":"../image/earphone2.png","value":"智能健康配件"}
+]},
+{"id":"decoration",
+    "look":"../image/look.png","main":[ 
+    {"title":"../image/decoration1.png","value":"充电器/线材"},
+    {"title":"../image/decoration2.png","value":"移动电源"},
+    {"title":"../image/decoration3.png","value":"自拍杆/支架"},
+    {"title":"../image/decoration1.png","value":"摄像机/镜头"},
+    {"title":"../image/decoration2.png","value":"智能硬件"},
+    {"title":"../image/decoration1.png","value":"充电器/线材"},
+    {"title":"../image/decoration2.png","value":"移动电源"},
+    {"title":"../image/decoration3.png","value":"自拍杆/支架"},
+    {"title":"../image/decoration1.png","value":"摄像机/镜头"},
+    {"title":"../image/decoration2.png","value":"智能硬件"}
+]},
+{"id":"goods","look":"../image/look.png",
+    "main":[ 
+    {"title":"../image/goods1.png","value":"智能灯光"},
+    {"title":"../image/goods2.png","value":"生活电器"},
+    {"title":"../image/goods3.png","value":"数码周边"},
+    {"title":"../image/goods1.png","value":"蓝牙音箱环境卫士"},
+    {"title":"../image/goods2.png","value":"安防门锁"},
+    {"title":"../image/goods1.png","value":"智能灯光"},
+    {"title":"../image/goods2.png","value":"生活电器"},
+    {"title":"../image/goods3.png","value":"数码周边"},
+    {"title":"../image/goods1.png","value":"蓝牙音箱环境卫士"},
+    {"title":"../image/goods2.png","value":"安防门锁"}
+]},
+{"id":"other",
+    "look":"../image/look.png","main":[ 
+    {"title":"../image/other1.png","value":"华为视频卡"},
+    {"title":"../image/other2.png","value":"花币卡"},
+    {"title":"../image/other2.png","value":"华为音乐卡"},
+    {"title":"../image/other1.png","value":"华为云空间"},
+    {"title":"../image/other2.png","value":"电池更换服务"},
+    {"title":"../image/other1.png","value":"服务器"},
+    {"title":"../image/other2.png","value":"AI 计算平台"}
+   
+]
+}
+
+]

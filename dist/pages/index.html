@@ -10,99 +10,278 @@
     <link rel="stylesheet" href="../sass/swiper-bundle.css">
 </head>
 <body>
-    <div class="nav-wrap">
-        <div class="nav">
-            <ul class="nav-l float-l">
-                <li>首页</li>
-                <li>华为官网</li>
-                <li>荣耀官网</li>
-                <li>花粉俱乐部</li>
-                <li>V码（优购码）</li>
-                <li>企业购</li>
-                <li>Select Rrgion</li>
-                <li class="noline">更多精彩<span>></span></li>
+    <!-- 右边的锚点导航栏 -->
+    <ul class="point">
+       <li ><a class="active" href="#nav">头部</a></li>
+       <li> <a href="#banner">banner图</a></li>
+       <li> <a href="#newThings">新品</a></li>
+       <li> <a href="#hotgoods">热销单品</a></li>
+       <li> <a href="#phones">手机</a></li>
+       <li><a href="#hotdecotation">配件热销</a></li>
+       <li> <a href="#foot">底部</a></li>
+    </ul>
+    <p class="scrollWrap">
+        <span class="scroll"></span>
+    </p>
+    <!-- head-->
+   <div class=head></div>
+<!-- banner图列表 -->
+    <div class="list-wrap" id="banner">
+        <div class="banlist">
+            <div class="swiper-pagination pages"></div>
+            <div class="swiper-button-prev prev"></div>
+            <div class="swiper-button-next next"></div>
+            <ul class="float-l">
+                <li id="phone">手机<span>></span></li>
+                <li id="computer">笔记本<span>></span> </li>
+                <li id="ipad">平板 <span>></span></li>
+                <li id="watch">智能穿戴&VR <span>></span></li>
+                <li id="route">智能居家 <span>></span></li>
+                <li id="moniter">智慧屏 <span>></span></li>
+                <li id="earphone">耳机音箱 <span>></span></li>
+                <li id="decoration">配件 <span>></span></li>
+                <li id="goods">生态产品 <span>></span></li>
+                <li id="other">增值服务&其他 <span>></span></li>
             </ul>
-            <ul class="float-r nav-r">
-                    <li>
-                        <em>请登录</em>
-                        <em>注册</em>
-                    </li>
-                    <li>我的订单</li>
-                    <li>客户服务 <span>></span></li>
-                    <li>网站导航<span>></span></li>
-                    <li class="nolineto">手机版<span>></span></li>
-                    <li class="noline">购物车(0)</li>
+            <div class="banmain float-l">
+                <!-- <ul>
+                    <li><img src="../image/phone1.jpg" alt=""><span>华为MatePad系列</span></li>
+                    <li><img src="../image/phone1.jpg" alt=""><span>荣耀数字系列</span></li> 
+                   <li> <img src="../image/phone1.jpg" alt=""><span>荣耀 V系列</span></li>
+                   <li> <img src="../image/phone1.jpg" alt=""><span>华为畅享 系列</span></li>
+                   <li><img src="../image/phone1.jpg" alt=""><span>荣耀数字系列</span></li> 
                 </ul>
-        </div>
-    </div>
-    <div class="title-wrap" >
-        <div class="title">
-            <h1 class="logo"> 
-                <img src="../image/logo.png" alt="">
-            </h1>
-            <div class="titlemain float-l">
-                <img class="red" src="../image/titlered.png">
-                </img>
-                <img class="blue" src="../image/titleblue.png">
-                </img>
-                <span>华为    p40    系列</span>
-                <span>荣耀30系列</span>
-                <span>安心居家</span>
+                <ul>
+                    <li><img src="../image/phone1.jpg" alt=""><span>华为MatePad系列</span></li>
+                    <li><img src="../image/phone1.jpg" alt=""><span>荣耀数字系列</span></li> 
+                   <li> <img src="../image/phone1.jpg" alt=""><span>荣耀 V系列</span></li>
+                   <li> <img src="../image/phone1.jpg" alt=""><span>华为畅享 系列</span></li>
+                </ul> -->
+                <p><img src="../image/look.png" alt=""></p>
             </div>
-            <div class="search float-r">
-<input type="text" value="MatePad  10.8英寸   荣耀30">
-                <button class="btn"></button>
+            <!-- 数据渲染列表 -->
+            <div class="bandown">
+                <div class='left float-l'>
+                    <div class="pic float-l">
+                        <img src="../image/pic.png" alt="">
+                    </div>
+                    <div class="login float-l">
+                        <div class="infor">你好！请<a href="../pages/login.html" class="loginIn">登录</a><em>/</em><span>注册</span></div>
+                        <div class="welfare">
+                            <span class="benefit">新人福利</span>
+                            <span class="member">会员频道</span>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="center float-l">
+                    <div id="cenlist">
+                        <div class="kk">
+                            <img src="../image/centerpic.gif" alt="">
+                            <span>企业购特惠</span>
+                        </div>
+                        <div class="kk">
+                            <img src="../image/centerpic2.gif" alt="">
+                            <span>会员领劵 </span>
+                        </div>
+                        <div>
+                            <img src="../image/centerpic3.png" alt="">
+                            <span>以旧换新</span>
+                        </div>
+                        <div>
+                            <img src="../image/centerpic3.gif" alt="">
+                            <span>P40 Pro   </span>
+                        </div>
+                        <div>
+                            <img src="../image/centerpic5.png" alt="">
+                            <span>华为数码</span>
+                        </div>
+                        <div class="nomargin">
+                            <img src="../image/centerpic6.png" alt="">
+                            <span>荣耀数码</span>
+                        </div>
+                </div>
+                </div>
+                <div class="right float-l">
+                    <div class="notice">
+                        <em>公告</em> 
+                        <div class="noticeCont">
+                            <!-- 会计法的快乐经历的 -->
+                            <div>
+                                <ul class="noticeList">
+                                    <li>简单来说福建师范的结论是</li>
+                                    <li>江东父老积分酸辣粉家乐福</li>
+                                    <li>酸辣粉就算了快捷方式</li>
+                                    <li>简单来说福建师范的结论是</li>
+                                    <li>江东父老积分酸辣粉家乐福</li>
+                                    <li>酸辣粉就算了快捷方式</li>
+                                </ul>
+                            </div>
+                      
+                    </div>
+                    </div>
+                    <div class="function">
+                      
+                            <div >
+                                <img src="../image/code.gif" alt="">
+                                <span>优购码</span>
+                            </div>
+                            <div>
+                                <img src="../image/battery.gif" alt="">
+                                <span>更换电池</span>
+                            </div>
+                            <div>
+                                <img src="../image/ensure.gif" alt="">
+                                <span>够补保障</span>
+                            </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <div class="banana-wrap ">
         <div class="swiper-container banana">
-        <!-- 轮播图 -->
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <img src="../image/ban1.jpg" alt="">
+            <!-- 轮播图 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="../image/ban1.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../image/ban2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../image/ban3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../image/ban4.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../image/ban5.jpg" alt="">
+                </div>
+                   
             </div>
-            <div class="swiper-slide">
-                <img src="../image/ban2.jpg" alt="">
+                </div>
             </div>
-            <div class="swiper-slide">
-                <img src="../image/ban3.jpg" alt="">
-            </div>
-            <div class="swiper-slide">
-                <img src="../image/ban4.jpg" alt="">
-            </div>
-            <div class="swiper-slide">
-                <img src="../image/ban5.jpg" alt="">
-            </div>
-
         </div>
-        <!-- 如果需要分页器 -->
-        <div class="swiper-pagination pages"></div>
-        
-        <!-- 如果需要导航按钮 -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-        
-        <!-- 如果需要滚动条 -->
-        <!-- <div class="swiper-scrollbar"></div> -->
-        <!-- 如果需要分页器 -->
-        <div class="swiper-pagination"></div>
-        
-        <!-- 如果需要导航按钮 -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-        
-        <!-- 如果需要滚动条 -->
-        <!-- <div class="swiper-scrollbar"></div>
-        <div class=""></div>
-        <div class="banana">
-            <div class="list"></div>
-            <div class="data"></div>
-        </div> -->
+</div>
+<!-- newThings -->
+<div class='showwrap' id="newThings">
+    <div class="show">
+        <img src="../image/show1.jpg" alt="">
+        <img src="../image/show2.jpg" alt="">
+        <img src="../image/show3.jpg" alt="">
+        <img class="no-margin" src="../image/show1.jpg" alt="">
     </div>
 </div>
+<!-- hotgoods -->
+<div class="hot" id="hotgoods">
+    <div class="title">
+        <h3>热销单品</h3>
+    </div>
+   
+    <img class='float-l' src="../image/show.png" alt="">
+    <div class="float-l">
+        <ul class="hotsphone">
+            <li>
+                <img src="../image/hot1.png" alt="">
+                <h4>HUAWEI  P40 Pro+</h4>
+                <p>享6期免息</p>
+                <span>￥7988</span>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- phones -->
+<div class="phone" id="phones">
+    <div class="phoneTit">
+        <h3>手机</h3>
+        <span>HUAWEI Mate系列</span>
+        <span>HUAWEI P系列</span>
+        <span>HUAWEI  nova系列</span>
+        <span>华为畅享系列</span>
+        <span>荣耀v系列</span>
+        <span>荣耀HONOR系列</span>
+        <span>荣耀X系列</span>
+        <span>荣耀PLay</span>
+        <em>查看更多</em>>
+    </div>
+    <ul class="huaweiphone">
+        <li>
+            <img class="modal" src="../image/phone1.jpg" alt="">
+            
+        </li>
+        <li>
+            <img src="../image/phone2.png" alt="">
+            <h4>荣耀Play4T</h4>
+            <p>最高优惠110元</p>
+            <b>￥1199</b>
+           
+        </li>
+
+    </ul>
+</div>
+<!-- hotdecotation -->
+<div class="decorate" id="hotdecotation">
+    <div class="decorateTit">
+        <h3>配件热销</h3>
+        <span>移动能源</span>
+        <span>充电器/线材</span>
+        <span>自拍杆/支架</span>
+        <span>摄像机/镜头</span>
+        <span>智能硬件</span>
+        <span>生活周边</span>
+        <span>其他</span>
+        <span>保护壳</span>
+        <span>贴膜</span>
+        <span>个人电脑配件</span>
+        <em>查看更多</em>>
+    </div>
+    <img src="../image/pei1.jpg" alt="">
+    <ul class="parts">
+         <li>
+            <img src="../image/pei1.png" alt="">
+            <h4>HUAWEI GM眼镜新品</h4>
+            <p>享12期免息 晒新品赠好礼</p>
+            <i>￥2499元</i>
+        </li>
+    </ul>
+   
+    </div>
+    <!-- 底部轮播图 -->
+    <!-- <div class="downwrap"> -->
+        <!-- <div class="downlist">
+         <p class="downLeft"></p>
+         <p class="downRight"></p>
+        <ul class="downcont">
+        <li class="downLi">
+         <div>
+             <img id="downpic" src="../image/down1.png" alt="">
+             <span>djkldfjl</span>
+         </div>
+         <p>华为无线自拍杆</p>
+         <em>￥555</em>
+        </li>
+        <li class="downLi">
+            <div>
+                <img id="downpic" src="../image/down1.png" alt="">
+                <span>djkldfjl</span>
+            </div>
+            <p>华为无线自拍杆</p>
+            <em>￥555</em>
+        </li>
     
+    </ul>
+     </div> -->
+<!-- </div> -->
+
+
+<!-- foot -->
+<div class="foot" id="foot"></div>
+
+    <script src='../script/jquery-1.8.3.js'></script>
     <script src="../script/swiper-bundle.js"></script>
+    <script src="../script/utils.js"></script>
     <script  src='../script/index.js'></script>
+  
 </body>
 </html>

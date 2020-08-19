@@ -1,0 +1,45 @@
+[
+    {
+        "type1":["../image/miyuhong1.png","../image/miyuhong2.png","../image/miyuhong3.png","../image/miyuhong5.png"],
+        "other":{"type2":["../image/wuxiantaocibai1.png","../image/wuxiantaocibai2.png","../image/wuxiantaocibai3.png","../image/wuxiantaocibai4.png","../image/wuxiantaocibai5.png","../image/wuxiantaocibai6.png","../image/wuxiantaocibai7.png"]},
+        "id":"1","key":"taocibai","scr":"../image/miyuhong1.png","name":"华为（HUAWEI）移动路由5G CPE Pro","price":"¥2199",
+        "display":["限时特价","分期免息","赠送积分"],"comment":"692评价","goodCommont":"97%好评","new":"0",
+        "goods":"0","more":"1"
+    },
+    {
+        "type1":["../image/tangjinghei1.png","../image/tangjinghei2.png","../image/tangjinghei3.png","../image/tangjinghei4.png","../image/tangjinghei5.png","../image/tangjinghei6.png","../image/tangjinghei7.png"],
+        "other":{"type2":["../image/youxiantaocibai1.png","../image/youxiantaocibai2.png","../image/youxiantaocibai3.png","../image/youxiantaocibai4.png","../image/youxiantaocibai5.png"]},
+        "name":"华为5G随行WiFi","price":"¥1599起","id":"2","scr":"../image/tangjinghei1.png",
+        "display":["限时特价","赠送积分"],"comment":"520评价","goodCommont":"98%好评","new":"1",
+        "goods":"1","more":"1"
+
+    },
+    {
+        "type1":["../image/linglanbai1.png","../image/linglanbai2.png","../image/linglanbai3.png","../image/linglanbai4.png"],
+        "other":{"type2":["../image/huangyehei1.png","../image/huangyehei2.png","../image/huangyehei3.png","../image/huangyehei4.png"]},
+        "id":"3","scr":"../image/linglanbai1.png","name":"华为（HUAWEI）移动路由4G路由2 Pro","price":"¥449",
+        "display":["限时特价","赠送积分"],"comment":"1058评价","goodCommont":"99%好评","new":"0",
+        "goods":"1","more":"0"
+    },
+    {
+        "type1":["../image/miyuhong1.png","../image/miyuhong2.png","../image/miyuhong3.png","../image/miyuhong5.png"],
+        "other":{"type2":["../image/wuxiantaocibai1.png","../image/wuxiantaocibai2.png","../image/wuxiantaocibai3.png","../image/wuxiantaocibai4.png","../image/wuxiantaocibai5.png","../image/wuxiantaocibai6.png","../image/wuxiantaocibai7.png"]},
+        "id":"4","scr":"../image/listpic4.png","name":"华为（HUAWEI）移动路由4G路由2","price":"￥269",
+        "display":["限时特价","赠送积分"],"comment":"5448评价","goodCommont":"98%好评","new":"1",
+        "goods":"1","more":"0"
+    },
+    {
+        "type1":["../image/tangjinghei1.png","../image/tangjinghei2.png","../image/tangjinghei3.png","../image/tangjinghei4.png","../image/tangjinghei5.png","../image/tangjinghei6.png","../image/tangjinghei7.png"],
+        "other":{"type2":["../image/youxiantaocibai1.png","../image/youxiantaocibai2.png","../image/youxiantaocibai3.png","../image/youxiantaocibai4.png","../image/youxiantaocibai5.png"]},
+        "id":"5","scr":"../image/listpic5.png","name":"华为随行WiFi 2 mini","price":"¥2199",
+        "display":["限时特价","赠送积分"],"comment":"520评价","goodCommont":"98%好评","new":"1",
+        "goods":"0","more":"1"
+    },
+    {
+        "type1":["../image/tangjinghei1.png","../image/tangjinghei2.png","../image/tangjinghei3.png","../image/tangjinghei4.png","../image/tangjinghei5.png","../image/tangjinghei6.png","../image/tangjinghei7.png"],
+        "other":{"type2":["../image/youxiantaocibai1.png","../image/youxiantaocibai2.png","../image/youxiantaocibai3.png","../image/youxiantaocibai4.png","../image/youxiantaocibai5.png"]},
+        "id":"6","scr":"../image/listpic6.png","name":"华为4G路由外置天线","price":"¥39",
+        "display":["赠送积分"],"comment":"187评价","goodCommont":"95%好评","new":"0",
+        "goods":"1","more":"1"
+    }
+]

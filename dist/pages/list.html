@@ -6,10 +6,63 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="../sass/reset.css">
-    <link rel="stylesheet" href="../sass/list.scss">
+    <link rel="stylesheet" href="../sass/list.css">
 </head>
 <body>
-    <h3>这是列表页</h3>
+    <div class='head'></div>
+    <div class="listwrap">
+        <div class="list">
+            <p>
+                首页<span class="">></span>平板<em>></em>荣耀数字系列
+            </p>
+            <div class="classic">
+                <div class="type">
+                    <span>分类：</span>
+                    <em class="active">电脑</em>
+                </div>
+                <div class="pricelist">
+                    <span>价格区间：</span>
+                    <em><input class="lowPrice" type="checkbox"> 0-1100</em>
+                    <em> <input class="heightPrice " type="checkbox">1100-3000</em>
+                </div>
+                <div class="assoc">
+                    <span >排序：</span>
+                    <em class="total active">综合</em>
+                    <em class="new">最新</em>
+                    <em class="hot">热度</em>
+                    <em class="price">价格</em>
+                    <i class="up"></i>
+                    <i class="down"></i>
+                </div>
+               
+            </div>
+             <!-- 列表部分 -->
+             <div class="listCont">
+                <ul class="listmain">
+                     <!-- <li>
+                        <img src="../image/listpic1.png" alt="">
+                        <b>暂时缺货</b>
+                        <h4>/h4>
+                        <p>${data[i].price} <i>多款可选</i></p>
+                        <div class="display">
+                         ${str}
+                        </div>
+                        <div class="commont">
+                            <em>${data[i].commont}</em>
+                             <em>${data[i].goodCommont}</em>
+                        </div>
+                        <div class="new">
+                            新品上市
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        <div class="foot"></div>
+      
+    </div>
+    <script src="../script/jquery-1.8.3.js"></script>
+    <script src="../script/utils.js"></script>
     <script src='../script/list.js'></script>
 </body>
 </html>
