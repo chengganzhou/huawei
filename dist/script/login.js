@@ -11,32 +11,7 @@ $('.pass').focus(function(){
 $('.pass').blur(function(){
     $(this).css("border-color","transparent");
  })
- $('.ipt').one("keydown",function(){
-    $(this).val('');
-})
-$('.pass').one("keydown",function(){
-    $(this).val('');
-})
-$('.pass').keyup(function(){
-    form('.pass','密码123456');
 
-  })
-  $('.ipt').keyup(function(){
-    form('.ipt','用户名xiaocuo');
-    console.log(222)
-    $(this).prop("type","text");
-
-  })
-function form(dom,cont){
-    $(dom).prop("type","password");
-    if($(dom).val()==''){
-        $(dom).val(cont);
-         $(dom).prop("type","text");
-         $(dom).one("keydown",function(){
-            $(dom).val('');
-        })
-    }
-}
 $('.sub').click(function(e){
     e.preventDefault();
     if($('.pass').val()=='' || $('.ipt').val()==''){

@@ -28,6 +28,10 @@ if(getCookie("user")){
   $('.head').load("../pages/head.html") ;   
   // // 引入公共的底部
   $('.foot').load("../pages/foot.html") ;   
+
+
+
+  
   var chanel=document.querySelector('.chanel');
   // 频道导航栏数据
   // ajax({
